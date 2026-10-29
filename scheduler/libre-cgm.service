@@ -1,0 +1,6 @@
+[Unit]
+Description=libre-cgm collect
+
+[Service]
+Type=oneshot
+ExecStart=__PY__ __SCRIPT__
